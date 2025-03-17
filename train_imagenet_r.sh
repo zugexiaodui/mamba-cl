@@ -1,0 +1,1 @@
+python train_eval.py -d imagenet_r --pretrained_path "PATH_TO/defocus_mamba_large_cls_21k.pth" --data_root "DATA_ROOT" --null_eta 0.90 --use_null_space --seed 2024 $@
